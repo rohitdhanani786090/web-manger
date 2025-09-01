@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Showcase</title>
+    <style>
+        /* General body and font styles for a dark theme */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+            background-color: #1a1a2e;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        /* Main container and card styles */
+        .container {
+            background-color: #21213e;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 800px;
+        }
+
+        /* Heading styles */
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #e94560;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Website counter styles */
+        #website-count {
+            text-align: center;
+            font-size: 1rem;
+            color: #a4a4b2;
+            margin-bottom: 2rem;
+        }
+
+        /* Website list styles */
+        #website-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .website-item {
+            display: flex;
+            flex-direction: column;
+            background-color: #282a53;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .website-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .website-info h3 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.5rem;
+            color: #f7f7f7;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .website-info p {
+            margin: 0;
+            font-size: 1rem;
+            color: #a4a4b2;
+            word-wrap: break-word;
+        }
+
+        .view-btn {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.75rem 1.5rem;
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .view-btn:hover {
+            background-color: #2980b9;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 600px) {
+            body {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .container {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>My Awesome Websites</h1>
+        <!-- A friendly sub-heading to show what this page is about -->
+        <p id="website-count" style="text-align: center; margin-bottom: 2rem; color: #a4a4b2;"></p>
+
+        <!-- Website List -->
+        <ul id="website-list">
+            <!-- Demo Website 1 -->
+            <li class="website-item">
+                <div class="website-info">
+                    <h3>ELITE STUDIO</h3>
+                    <p>A fun website for learning about space. It includes interactive planets and stars.</p>
+                </div>
+                <a href="https://rohitdhanani786090.github.io/webpage/" target="_blank" class="view-btn">View
+                    Website</a>
+            </li>
+
+            <!-- Demo Website 2 -->
+            <li class="website-item">
+                <div class="website-info">
+                    <h3>MY Portfolio</h3>
+                    <p>My collection of all sites and digital art. I use this site to share my creations with friends.
+                    </p>
+                </div>
+                <a href="https://rohitdhanani786090.github.io/Rohit.dev/" target="_blank" class="view-btn">View
+                    Website</a>
+            </li>
+
+            <!-- Demo Website 3 -->
+            <li class="website-item">
+                <div class="website-info">
+                    <h3>ShreeShyamProperty</h3>
+                    <p>A simple blog where I share my favorite recipes and cooking tips.</p>
+                </div>
+                <a href="https://rohitdhanani786090.github.io/ShreeShyamProperty" target="_blank" class="view-btn">View
+                    Website</a>
+            </li>
+            <li class="website-item">
+                <div class="website-info">
+                    <h3>Adersial construction</h3>
+                    <p>A simple blog where I share my favorite recipes and cooking tips.</p>
+                </div>
+                <a href="https://rohitdhanani786090.github.io/demotest/" target="_blank" class="view-btn">View
+                    Website</a>
+            </li>
+            <li class="website-item">
+                <div class="website-info">
+                    <h3>Elite-Academy</h3>
+                    <p>A simple blog where I share my favorite recipes and cooking tips.</p>
+                </div>
+                <a href="https://rohitdhanani786090.github.io/Elite-Academy/" target="_blank" class="view-btn">View
+                    Website</a>
+            </li>
+            <li class="website-item">
+                <div class="website-info">
+                    <h3>Elite-hostel</h3>
+                    <p>A simple blog where I share my favorite recipes and cooking tips.</p>
+                </div>
+                <a href="https://rohitdhanani786090.github.io/hostel/" target="_blank" class="view-btn">View
+                    Website</a>
+            </li>
+            <li class="website-item">
+                <div class="website-info">
+                    <h3>Elite-school</h3>
+                    <p>A simple blog where I share my favorite recipes and cooking tips.</p>
+                </div>
+                <a href="https://rohitdhanani786090.github.io/school/" target="_blank" class="view-btn">View
+                    Website</a>
+            </li>
+            <!-- You can add more websites here following the same structure -->
+        </ul>
+    </div>
+    <script>
+        // Count the number of websites and display the total
+        const totalWebsites = document.querySelectorAll('#website-list .website-item').length;
+        document.getElementById('website-count').textContent = `Total Websites: ${totalWebsites}`;
+
+        console.log("This is a static website list. No dynamic features are active.");
+    </script>
+</body>
+
+</html>
